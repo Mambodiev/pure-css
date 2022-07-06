@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <h1 class="logo">LOGO</h1> 
+            <ul class="menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="icons">
+                <img src= assets/icons/search.svg alt="bag icon" width="24" height="24">
+                <img src= assets/icons/person-circle.svg alt="bag icon" width="24" height="24">
+                <img src= assets/icons/basket3.svg alt="bag icon" width="34" height="24">
+                <span class="badge">6</span>
+            </div>
+        </div>
+    </div>
+    <!-- hero img -->
+    <div class="container">
+        <div class="col">
+            <div class="mySlides fade">
+                <img src="assets/images/img_1.jpg" style="width:100%">
+                    <div class="hero-text">
+                        <h1>I am Produt Title</h1>
+                        <p>And I'm a Photographer It is a long established fact that a reader will be distracted.</p>
+                        <button>Hire me</button>
+                    </div>
+                <div class="text">
+                    <div>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/images/img_2.jpg" style="width:100%">
+                <div class="hero-text">
+                    <h1>I am Produt Title 2</h1>
+                    <p>And I'm a Photographer It is a long established fact that a reader will be distracted.</p>
+                    <button>Hire me</button>
+                </div>
+                <div class="text">
+                    <div>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/images/img_1.jpg" style="width:100%">
+                <div class="hero-text">
+                    <h1>I am Produt Title 3</h1>
+                    <p>And I'm a Photographer It is a long established fact that a reader will be distracted.</p>
+                    <button>Hire me</button>
+                </div>
+                <div class="text">
+                <div>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+    </div>
+    <!-- end hero img -->
+
+    <!-- products -->
+    <div class="container">
+        <div class="col col-container">
+            <div class="col">
+                <img src="assets/images/product_img.png" style="width:100%">
+            </div>
+          
+            <div class="col hero-content">
+                <div class="heroContent">
+                    <h1>Produt Title 3</h1>
+                    <p>And I'm a Photographer It is a long established fact that a reader will be distracted.</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+        </div>
+          <!-- <h1 class="title" >Products</h1> -->
+    </div>    
+    <!-- end products -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
